@@ -11,6 +11,7 @@ Open Khmer School is one of the Khmer typefaces initiated by Open Insitute, with
 Open Khmer School comes with three variants:
 
 ### Normal (Unicode)
+
 * Light
 * Light Italic (Coming soon)
 * Regular
@@ -20,6 +21,7 @@ Open Khmer School comes with three variants:
 
 ### Dotted (Unicode)
 ![Open Khmer School Dotted](images/dotted.png)
+
 Dotted variant is very important in this project. As its name implies, it is for making tracing paths.
 
 * Light (Coming soon)
@@ -29,6 +31,7 @@ Dotted variant is very important in this project. As its name implies, it is for
 
 ### Highlight (Non-Unicode)
 ![Open Khmer School Highlight](images/highlight.png)
+
 Besides the Normal and Dotted variants, which are in Unicode, Highlight is created in the legacy way using Latin character set. In this project, we need more flexibility for highlighting characters in a syllable, especially in ligature forms. As a ligature usually exists between a consonant and a post-base vowel (U+17B6, U+17C4, or U+17C5), selecting the vowel in any word processing program is very tricky (as the syllable will be selected, not a character).
 
 In order to solve this, we have come to using Latin character set, and writing OpenType features to imitate the Unicode ways (ligature, subconsonant, etc.), except the `pref` and `pres` features.
