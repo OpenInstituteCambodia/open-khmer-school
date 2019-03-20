@@ -1,5 +1,13 @@
 # Changelog for Open Khmer School
 
+## Version 1.410
+- Master compatibility
+- Added Medium and SemiBold styles
+- Added `atthacan-khmer` glyph
+- Fixed loop inconsistency in post-base glyphs
+- Fixed height of second level post-base in ligatures
+- Other small fixes
+
 ## Version 1.400
 - Moved the right head of `ttha-khmer` and `vo-khmer` up to the hair hanging line
 - Decreased the height of the Khmer number 5
