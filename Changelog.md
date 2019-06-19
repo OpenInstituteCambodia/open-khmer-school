@@ -1,5 +1,8 @@
 # Changelog for Open Khmer School
 
+## Version 1.420
+- Fixed interpolation issue in `reahmuk-khmer` glyph.
+
 ## Version 1.410
 - Master compatibility
 - Added Medium and SemiBold styles
